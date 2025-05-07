@@ -32,7 +32,7 @@ public class StreamAPIFirstToFiveProblems {
 
         Character ch = str.chars().mapToObj(c -> (char) c).filter(idx -> str.indexOf(idx) == str.lastIndexOf(idx))
                 .findFirst().orElse(null);
-        // System.out.println(ch);
+        System.out.println(ch);
 
         // Given a list of integers, return a list containing only the even numbers
         // using Stream API.
